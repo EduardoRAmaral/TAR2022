@@ -17,21 +17,27 @@
 
     <h1>Advanced Topics in Networking - Group 13</h1>
     <p>Channel 1</p>
-    <div class="container">
-            <a href="../index.html">
-                <button class="button home">Home</button>
-            </a>
-        </div>
-    </div>
-    <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto" data-setup='{}'>
-            <source src="http://localhost:8080/stream1.m3u8"
-                type="application/x-mpegURL">
-    </video>
-
+        <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto" data-setup='{}'>
+                <source src="http://89.152.223.24:8080/hls/stream1.m3u8"
+                    type="application/x-mpegURL">
+        </video>
     <script>
         var player = videojs('my_video_1');
         player.play();
     </script>
+    <div class="container">
+        <div class="vertical-center">
+            <a href="../index.html">
+                <button class="button home">Home</button>
+            </a>
+                <a href="video2.html">
+                <button class="button button2">Channel 2</button>
+            </a>
+                <a href="video3.html">
+                <button class="button button3">Channel 3</button>
+            </a>
+        </div>
+    </div>
 
 </body>
 
