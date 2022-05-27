@@ -56,6 +56,16 @@ body {
     background-color: red;
     color: white;
   }
+  .home {
+    background-color: white; 
+    color: black; 
+    border: 2px solid yellow;
+  }
+  
+  .home:hover {
+    background-color: yellow;
+    color: white;
+  }
   .container {
     height: 200px;
     position: relative;
