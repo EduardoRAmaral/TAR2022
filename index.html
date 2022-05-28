@@ -3,6 +3,7 @@
 
 <head>
     <meta charset=utf-8 />
+    <link rel="stylesheet" href="css/styles.css">
     <title>Your title</title>
 
 
@@ -13,15 +14,24 @@
 </head>
 
 <body>
-    <video id="my_video_1" class="video-js vjs-fluid vjs-default-skin" controls preload="auto" data-setup='{}'>
-        <source src="http://localhost:8080/hls/stream.m3u8"
-            type="application/x-mpegURL">
-    </video>
 
-    <script>
-        var player = videojs('my_video_1');
-        player.play();
-    </script>
+    <h1>Advanced Topics in Networking - Group 13</h1>
+    <h2>Choose a Channel:</h2>
+
+    
+    <div class="containerHome">
+        <div class="vertical-centerHome">
+            <a href="html/video1.html">
+                <button class="button button1">Channel 1</button>
+            </a>
+            <a href="html/video2.html">
+                <button class="button button2">Channel 2</button>
+            </a>
+            <a href="html/video3.html">
+            <button class="button button3">Channel 3</button>
+            </a>
+        </div>
+    </div>
 
 </body>
 
