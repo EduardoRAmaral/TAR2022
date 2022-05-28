@@ -11,6 +11,65 @@ body {
   --text-color-highlight: hsl(25, 70%, 45%);
   }
 
+  .containerHome {
+    height: 200px;
+    width: 2000px;
+    position: relative;
+  }
+  
+  .vertical-centerHome {
+    margin: 0;
+    position: absolute;
+    top: 250px;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  }
+
+
+  .buttonHome {
+    border: none;
+    color: black;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button1Home {
+    background-color: black; 
+    color: black; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1Home:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .button2Home {
+    background-color: black; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button2Home:hover {
+    background-color: #008CBA;
+    color: white;
+  }
+
+  .button3Home {
+    background-color: black; 
+    color: black; 
+    border: 2px solid red;
+  }
+  
+  .button3Home:hover {
+    background-color: red;
+    color: white;
+  }
+
+
   .button {
     border: none;
     color: white;
@@ -56,6 +115,7 @@ body {
     background-color: red;
     color: white;
   }
+
   .home {
     background-color: white; 
     color: black; 
@@ -78,10 +138,4 @@ body {
     left: 50%;
     -ms-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-  }
-
-  .videoplayer {
-
-    border: 2px solid yellow;
-    width: 500px;
   }
