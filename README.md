@@ -19,4 +19,8 @@ sudo docker exec -it tar /bin/bash
 
 # Stream media
 
-ffmpeg -re -i lbaw2182.mp4 -c:v libx264 -c:1 aac -f flv rtmp://localhost/show/stream1
+ffmpeg -re -i stream1.mp4 -c:v libx264 -c:1 aac -f flv rtmp://localhost/show/stream1
+
+ffmpeg -re -i stream2.mp4 -c:v libx264 -c:1 aac -f flv rtmp://localhost/show/stream2
+
+ffmpeg -re -i stream3.mp4 -c:v libx264 -c:1 aac -f flv rtmp://localhost/show/stream3
