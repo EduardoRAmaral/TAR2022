@@ -24,7 +24,7 @@ RUN make install
 #Configure nginx.conf file
 COPY ./nginx.conf /usr/local/nginx/conf/nginx.conf
 
-RUN apt-get install curl net-tools -y
+#RUN apt-get install curl net-tools -y
 
 #Start nginx
 RUN /usr/local/nginx/sbin/nginx -t
