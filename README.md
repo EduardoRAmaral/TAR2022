@@ -6,7 +6,7 @@ sudo docker build -t tarhm1 .
 
 # Run
 
-sudo docker run -d -i -p 1935:1935 -p 8080:8080 --name=tar tarhm1
+sudo docker run -d -i -p 1935:1935 -p 8080:8080 --network="host" --name=tar tarhm1
 
 # Stop and remove container
 
